@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+for file in /home/alu-shell/loops_conditions_and_parsing/*
+do
+echo '#!/usr/bin/env bash' >> ${file}
+done
+#!/usr/bin/env bash
